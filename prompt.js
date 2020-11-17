@@ -9,3 +9,7 @@ var jamFour = songs[3];
 console.log(jamFour);
 songs.push('EastSide');
 
+songs.unshift('Boy with luv');
+console.log(songs.length);
+songs.pop();
+console.log(songs.length);
