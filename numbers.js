@@ -1,16 +1,9 @@
-const number = [2, 4, 8, 7, 10];
+const desend = [2020, 2004, 2008, 1997, 2010];
 
-function numberDesend(number) {
-    let items = '';
-    for(let i = 0; i < number.length){
-        items += `<li>${number[i]}</li>`;
-    }
-    return items;
+function numberDesend() {
+    desend = desend.sort();
+    console.log(desend);
+    return numberDesend();
 }
 
 //Exercise 3
-const movies = [
-    [],
-    [],
-    []
-]
